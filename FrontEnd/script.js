@@ -28,7 +28,7 @@ function createWorks(work){
     const img = document.createElement("img");
     const figcaption = document.createElement("figcaption");
 
-    img.src = works.imgUrl;
+    img.src = work.imgUrl;
     figcaption.innerText = work.title;
     figure.setAttribute("categorieId", work.category.id);
 
